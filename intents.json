@@ -1,0 +1,207 @@
+{
+        "intents": [
+                {
+                        "tag": "greeting",
+                        "patterns": [
+                                "Hi",
+                                "How are you",
+                                "Is anyone there?",
+                                "Hello",
+                                "Good day",
+                                "Whats up",
+                                "What is happening"
+                        ],
+                        "responses": [
+                                "Hello!",
+                                "Good to see you again!",
+                                "Hi there, how can I help?"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "goodbye",
+                        "patterns": [
+                                "cya",
+                                "See you later",
+                                "Goodbye",
+                                "I am Leaving",
+                                "Have a Good day"
+                        ],
+                        "responses": [
+                                "Sad to see you go :(",
+                                "Talk to you later",
+                                "Goodbye!"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "name",
+                        "patterns": [
+                                "what is your name",
+                                "what should I call you",
+                                "whats your name?"
+                        ],
+                        "responses": [
+                                "You can call me x86_64.",
+                                "I'm x86_64!"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "creator",
+                        "patterns": [
+                                "Who made you?",
+                                "Who made you",
+                                "Who are your creators?",
+                                "Who are your creators",
+                                "What is your background?",
+                                "What is your background",
+                                "Who is your boss?",
+                                "Who is your boss"
+                        ],
+                        "responses": [
+                                "My creators are the best people: Vedant, Mandar, Aditi, Heer",
+                                "These smart people made me: Vedant, Mandar, Aditi, Heer"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "about",
+                        "patterns": [
+                                "What do you do?",
+                                "What can you help me with?",
+                                "Of what use are you to me?",
+                                "What do you sell?",
+                                "I need your help"
+                        ],
+                        "responses": [
+                                "I was made to help you find the best laptop for your needs."
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "abigious",
+                        "patterns": [
+                                "What is today's weather?",
+                                "What do to think about the world?",
+                                "How smart are you"
+                        ],
+                        "responses": [
+                                "I am not designed for these types of question.",
+                                "I don't quite understand that yet",
+                                "Why are you looking for such things in a tech store",
+                                "I am not anyone of these things: Siri, GOOGLE, Alexa",
+                                "Please ask me questions regarding laptops only."
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "general_question",
+                        "patterns": [
+                                "laptop",
+                                "buy laptop",
+                                "get laptop",
+                                "show laptop",
+                                "I want to buy a good laptop",
+                                "Id like to buy something",
+                                "what do you reccommend?",
+                                "I want something",
+                                "I want laptop just for binge watching",
+                                "Good laptop",
+                                "What are my options for a good laptop?",
+                                "Something for light use",
+                                "I want a very google laptop",
+                                "Show your best",
+                                "What is the best one here?",
+                                "I want a very fast laptop",
+                                "I dont want something fancy",
+                                "Something modest",
+                                "It doesn't need to be the best",
+                                "I dont want an expensive laptop."
+                        ],
+                        "responses": [
+                                "What do you need it for?",
+                                "What specs are you looking for?",
+                                "I need more information to help you, what do you plan to do with it?",
+                                "Are you looking for a specific product? Please be a little bit more specific.",
+                                "What kind of a device are you looking for?",
+                                "Maybe you can start by telling me a price range and then we can start to narrow your choices."
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "query",
+                        "patterns": [
+                                "I want some thing from omn",
+                                "I want something with intl.",
+                                "I want something from ass.",
+                                "I want something from msi.",
+                                "Something from MSI should do.",
+                                "I really want an MSI product.",
+                                "Something from dll will be great",
+                                "I want a laptop below 70k",
+                                "I want a laptop more than 90000",
+                                "I want a laptop less than 50k",
+                                "I want a laptop above 80000",
+                                "I want a laptop for 65000",
+                                "I want a laptop around 40k",
+                                "I have been looking for a good laptop. I wish to play games on it",
+                                "I have been looking for a good laptop. I Just want it for school",
+                                "I have been looking for a good laptop. I wish to do 3d modelling on it",
+                                "I have been looking for a good laptop. I wish to do video editing on it",
+                                "I have been looking for a good laptop. I wish to do graphics design on it",
+                                "I want an asus laptop above 80000.",
+                                "I want an Msi laptop above 80000.",
+                                "I want an lenovo laptop above 80000.",
+                                "I want an HP laptop above 80000.",
+                                "gaming",
+                                "work",
+                                "video editing",
+                                "student",
+                                "college",
+                                "I want to buy a gaming laptop.",
+                                "Something for work purpose",
+                                "What is in stock for gaming laptop",
+                                "Something with 16gb ram",
+                                "I want intel processors only.",
+                                "I want amd processors only.",
+                                "Something with intel processors?",
+                                "I want to buy a work laptop.",
+                                "I want to buy a student laptop.",
+                                "I am a student, what do you reccomend?",
+                                "I want to buy a laptop which has screen of more than 13 inch.",
+                                "Show me laptop of screen size 13 inch.",
+                                "Something light weight should do.",
+                                "Something gaming should do.",
+                                "I want to buy a laptop with 10th gen Intel i5.",
+                                "Show me laptop with AMD Ryzen 5.",
+                                "Show only Intel Core laptops.",
+                                "Please show me laptop with GTX 3080 Gpu.",
+                                "Please show me laptop with GTX 1650 Ti Gpu.",
+                                "Show me laptop with NVIDIA RTX 30 series Gpu.",
+                                "Show me laptop of screen size 15.6 inch.",
+                                "Show me laptop with NVIDIA RTX 3080 Gpu.",
+                                "I want a laptop with battery life 16.5 hours.",
+                                "I want a laptop with battery life 12 hours.",
+                                "Show me HP laptops only.",
+                                "Show me Dell laptops only.",
+                                "Show me Lenovo laptops only.",
+                                "Display AMD Ryzen 9 5950X CPU laptop.",
+                                "Show laptop with Intel i5.",
+                                "Show laptop with Intel i7.",
+                                "Show laptop with quad-core processor.",
+                                "I want a laptop with fastest SSD. ",
+                                "Show laptops with Ram more than 6 GB.",
+                                "Show laptop with 16 GB ram."
+                        ],
+                        "responses": [
+                                "This could be something that you would like.",
+                                "Here's what I found in the store room.",
+                                "These items could end your search.",
+                                "I hope these items suffice.",
+                                "These devices should surely fit your need."
+                        ],
+                        "context_set": ""
+                }
+        ]
+}
